@@ -1,4 +1,6 @@
-# @node-ts/bus-sqs
+# @superadvisor/bus-sqs
+
+A fork of [`@node-ts/bus-sqs`](https://github.com/node-ts/bus) which utilizes AWS SDK v3 with additional conveniences.
 
 An Amazon SQS transport adapter for [@node-ts/bus](https://bus.node-ts.com)
 
