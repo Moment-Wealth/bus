@@ -1,7 +1,7 @@
 {
   "name": "@superadvisor/bus-sqs",
   "description": "An AWS SQS transport adapter for @node-ts/bus-core.",
-  "version": "1.0.19-sa.3",
+  "version": "1.0.19-sa.4",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -15,7 +15,8 @@
     "build": "tsc --project tsconfig.json --declaration",
     "build:watch": "yarn run build --incremental --watch --preserveWatchOutput",
     "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepublishOnly": "yarn build"
   },
   "publishConfig": {
     "access": "public"
